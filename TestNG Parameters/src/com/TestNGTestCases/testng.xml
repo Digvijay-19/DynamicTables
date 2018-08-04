@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FreeCRM" parallel="false">
+  <test name="CRM Test">
+  
+  
+   <classes>
+   <run>
+   
+      <class name="com.TestngParameters.TestCases"/>
+      </run>
+    </classes>
+  
+ <!--   <parameter name = "browser" value = "chrome" />
+  <parameter name = "url" value ="https://www.freecrm.com/index.html?e=2" />
+  <parameter name = "username" value ="Iphone" />
+  <parameter name = "password" value = "Bank$123" />
+ 
+    <classes>
+      <class name="com.TestngParameters.ParametersDemo"/>
+    </classes>
+     -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

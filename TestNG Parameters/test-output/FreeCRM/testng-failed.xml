@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCRM]">
+  <parameter name="password" value="Bank$123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.freecrm.com/index.html?e=2"/>
+  <parameter name="username" value="Iphone"/>
+  <test name="CRM Test(failed)">
+    <parameter name="password" value="Bank$123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.freecrm.com/index.html?e=2"/>
+    <parameter name="username" value="Iphone"/>
+    <classes>
+      <class name="com.TestngParameters.ParametersDemo">
+        <methods>
+          <include name="DemoOne" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TestngParameters.ParametersDemo -->
+    </classes>
+  </test> <!-- CRM Test(failed) -->
+</suite> <!-- Failed suite [FreeCRM] -->
